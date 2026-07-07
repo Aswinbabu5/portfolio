@@ -1,6 +1,5 @@
 import React from 'react'
 import './TopContent.css'
-import { Link } from 'react-scroll'
 import resume from '../../assets//aswinbabu_resume.pdf'
 
 const TopContent = () => {
@@ -13,7 +12,7 @@ const TopContent = () => {
                 <a href={resume} download={resume}>
                     <button className='topcontent_download_btn'>download resume</button>
                 </a>
-                <a href={resume} target='_blank' rel='noopener noreferer'>
+                <a href={resume} target='_blank' rel='noopener noreferrer'>
                     <button className='topcontent__btn'>View resume</button>
                 </a>
             </div>
