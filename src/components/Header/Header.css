@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+.header {
+    display: flex;
+    align-items: center;
+    background: #111b2e;
+    color: white;
+    padding: 15px 0;
+    top: 0;
+    position: sticky;
+    z-index: 2000;
+}
+
+.Left-side-header {
+    flex: 0.3;
+    text-transform: capitalize;
+}
+
+.Left-side-header > h2 {
+    text-align: center;
+    font-family: "Google Sans", sans-serif;
+    padding: 5px 0;
+}
+
+.Left-side-header > h5 {
+    text-align: center;
+    margin-left: 3px;
+    font-family: "Alata", sans-serif;
+}
+
+.Left-side-header > h2 > span {
+    color: rgb(112, 112, 243)
+}
+
+.Right-side-header {
+    display: flex;
+    flex: 0.7;
+    justify-content: space-evenly;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.Right-side-header > a > h4 {
+    font-size: 16px;
+    font-family: "Google Sans", serif;
+    cursor: pointer;
+    transition: transform 300ms ease-in;
+}
+
+.Right-side-header > a > h4:hover {
+    transform: scale(1);
+    border-bottom: 2px solid rgb(112, 112, 243);
+    padding: auto;
+}
+

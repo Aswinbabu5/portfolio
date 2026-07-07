@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,600;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.topcontent {
+    color: white;
+    position: relative;
+}
+
+.topcontent_right_container {
+    position: absolute;
+    top: 250px;
+    right: 110px;
+}
+
+.topcontent_right_container > p {
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-family: "Roboto", serif;
+    text-align: left;
+    padding-top: 15px;
+}
+
+.topcontent_right_container > a > button {
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    font-family: "Roboto", serif;
+    outline: none;
+    text-transform: capitalize;
+}
+
+.topcontent_right_container > h1 {
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
+    text-transform: capitalize;
+}
+
+.topcontent_right_container > h2 {
+    position: relative;
+    left: 110px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: "Roboto";
+}
+
+.topcontent_download_btn {
+    color: white;
+    background-color: rgb(112, 112, 243);
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 30px;
+    margin-right: 25px;
+    cursor: pointer;
+    transition: 150ms ease-in;
+}
+
+.topcontent_download_btn:hover {
+    color: rgb(112, 112, 243);
+    background-color: white;
+}
+
+.topcontent__btn {
+    color: white;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 300;
+    border: 1px solid white !important;
+    padding: 9px 30px;
+    cursor: pointer;
+    transition: 150ms ease-out;
+}
+
+.topcontent__btn:hover {
+    color: rgb(112, 112, 243);
+    background-color: white;
+    font-weight: 600;
+}
+
+.topcontent_left_container {
+    position: absolute;
+    right: 800px;
+    left: 60px;
+    top: 240px;
+    /* width: 600px;
+    max-width: 650px; */
+}
+
+.topcontent_left_container > p {
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    text-align: left;
+}
+
+.topcontent_left_container > h2 {
+    text-transform: capitalize;
+    font-family: "Roboto", Arial;
+    font-size: 28px;
+    padding-bottom: 15px;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: white;
+    text-underline-position: under;
+    color: rgb(112, 112, 243);
+}

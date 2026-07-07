@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,600;1,600&display=swap');
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 200px 0 100px;
+}
+
+.contact > h1 {
+    font-family: "Roboto", sans-serif;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: white;
+    text-underline-position: under;
+    color: rgb(112, 112, 243);
+}
+
+.contact-content {
+    border: 1px solid white;
+    width: 500px;
+    height: 200px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.contact-content > p {
+    font-size: 18px;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.contact-content > p > span {
+    color: rgb(115, 173, 236);
+}
+
+.contact_icon > a > button > .MuiSvgIcon-root {
+    color: white;
+}
+
+.contact_icon > a > button {
+    color: white;
+}

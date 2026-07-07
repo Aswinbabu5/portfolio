@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,600;1,600&display=swap');
+
+.expercon {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.expercon > h1 {
+    font-family: "Roboto", sans-serif;
+    padding-bottom: 15px;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: white;
+    text-underline-position: under;
+    color: rgb(112, 112, 243);
+}
+
+.expercon > .experfile {
+    border-collapse: collapse;
+    border-left: 4px solid #7C3AED;
+    padding-left: 22px;
+}
+

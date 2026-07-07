@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+.project > img {
+    width: 350px;
+    height: 180px;
+}
+
+.project {
+    margin: 10px;
+    width: 350px;
+    height: 180px;
+    transition: transform 200ms ease;
+}
+
+.project:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Google Sans", serif;
+    background-color: rgb(112, 112, 243);
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.projectscreen {
+    padding: 20px;
+}
+
+.projectscreen > h3 {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectscreen > p {
+    font-size: 16px;
+}
+
