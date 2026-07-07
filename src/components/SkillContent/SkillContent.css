@@ -49,7 +49,7 @@
     padding-top: 10px;
 }
 
-.skillcontent_slider > .css-1txyin7-MuiLinearProgress-root {
+.skillcontent_slider > .MuiLinearProgress-root {
     background-color: rgb(85, 85, 85);
 }
 
