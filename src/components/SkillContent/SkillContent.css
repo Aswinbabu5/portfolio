@@ -53,34 +53,34 @@
     background-color: rgb(85, 85, 85);
 }
 
-.skillcontent_slider1 > span > .css-1ueshpl-MuiLinearProgress-bar1 {
+.skillcontent_slider1 > span > .MuiLinearProgress-bar  {
     background-color: #4F46E5;
 }
 
-.skillcontent_slider2 > span > .css-1ueshpl-MuiLinearProgress-bar1 {
+.skillcontent_slider2 > span > .MuiLinearProgress-bar {
     background-color: #6366F1;
 }
 
-.skillcontent_slider3 > span > .css-1ueshpl-MuiLinearProgress-bar1 {
+.skillcontent_slider3 > span > .MuiLinearProgress-bar {
     background-color: #818CF8;
 }
 
-.skillcontent_slider4 > span > .css-1ueshpl-MuiLinearProgress-bar1 {
+.skillcontent_slider4 > span > .MuiLinearProgress-bar {
     background-color: #7C3AED;
 }
 
-.skillcontent_slider5 > span > .css-1ueshpl-MuiLinearProgress-bar1 {
+.skillcontent_slider5 > span > .MuiLinearProgress-bar {
     background-color: tomato;
 }
 
-.skillcontent_slider6 > span > .css-1ueshpl-MuiLinearProgress-bar1 {
+.skillcontent_slider6 > span > .MuiLinearProgress-bar {
     background-color: tomato;
 }
 
-.skillcontent_slider7 > span > .css-1ueshpl-MuiLinearProgress-bar1 {
+.skillcontent_slider7 > span > .MuiLinearProgress-bar {
     background-color: #8B5CF6;
 }
 
-.skillcontent_slider8 > span > .css-1ueshpl-MuiLinearProgress-bar1 {
+.skillcontent_slider8 > span > .MuiLinearProgress-bar {
     background-color: #10B981;
 }
