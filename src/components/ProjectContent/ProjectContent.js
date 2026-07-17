@@ -1,4 +1,5 @@
 import React from 'react'
+import '../../assets//plant_diseases.jpg'
 import { Element } from 'react-scroll'
 import Project from '../Project/project';
 import './ProjectContent.css'
