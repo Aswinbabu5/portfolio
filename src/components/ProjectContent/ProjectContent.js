@@ -19,7 +19,7 @@ const ProjectContent = () => {
             link: ""
         },
         {
-            img: "/my-website/src/assets/plant_diseases.jpg",
+            img: "/Users/ashwin/Desktop/HTML-PROJECT/aswin-portfolio/my-website/src/assets/plant_diseases.jpg",
             title: "Plant Disease Classificaton",
             desc: "Built an image-based plant disease detection model using machine learning techniques. Trained the model on labelled leaf images to classify disease categories and healthy plants also download the .csv type file and see the types.",
             link: "https://plantdisease-qi5qkhglmnllj4encmfmcz.streamlit.app"
