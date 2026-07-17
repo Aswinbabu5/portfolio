@@ -1,8 +1,8 @@
 import React from 'react'
-import '../../assets//plant_diseases.jpg'
 import { Element } from 'react-scroll'
 import Project from '../Project/project';
 import './ProjectContent.css'
+import plantdiseases from '../../assets/plant_diseases.jpg'
 
 const ProjectContent = () => {
     const projects = [
@@ -19,7 +19,7 @@ const ProjectContent = () => {
             link: ""
         },
         {
-            img: "/Users/ashwin/Desktop/HTML-PROJECT/aswin-portfolio/my-website/src/assets/plant_diseases.jpg",
+            img: plantdiseases,
             title: "Plant Disease Classificaton",
             desc: "Built an image-based plant disease detection model using machine learning techniques. Trained the model on labelled leaf images to classify disease categories and healthy plants also download the .csv type file and see the types.",
             link: "https://plantdisease-qi5qkhglmnllj4encmfmcz.streamlit.app"
