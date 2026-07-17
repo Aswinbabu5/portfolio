@@ -3,6 +3,7 @@ import { Element } from 'react-scroll'
 import Project from '../Project/project';
 import './ProjectContent.css'
 import plantdiseases from '../../assets/plant_diseases.jpg'
+import crmhcp from '../../assets/crm_hcp.png'
 
 const ProjectContent = () => {
     const projects = [
@@ -29,6 +30,12 @@ const ProjectContent = () => {
             title: "Smart Air Quality Monitoring for asthma patients",
             desc: "Developed an ML-powered air quality monitoring system that continuously monitors indoor and outdoor air quality conditions for asthma patients.",
             link: ""
+        },
+        {
+            img: crmhcp,
+            title: "AI-First CRM HCP",
+            desc: "Built a full-stack AI-powered CRM application that enables medical representatives to log, manage, and summarize Healthcare Professional (HCP) interactions using natural language. Integrated a LangGraph AI agent with Groq LLM to automate interaction logging, editing, retrieval, summarization, and follow-up recommendations.",
+            link: "https://ai-first-crm-hcp-mauve.vercel.app"
         }
 
     ];
