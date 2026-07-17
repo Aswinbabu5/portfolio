@@ -34,7 +34,7 @@ const ProjectContent = () => {
         {
             img: crmhcp,
             title: "AI-First CRM HCP",
-            desc: "Built a full-stack AI-powered CRM application that enables medical representatives to log, manage, and summarize Healthcare Professional (HCP) interactions using natural language. Integrated a LangGraph AI agent with Groq LLM to automate interaction logging, editing, retrieval, summarization, and follow-up recommendations.",
+            desc: "Built a full-stack AI-powered CRM application that enables medical representatives to log, manage, and summarize HCP interactions using natural language. Integrated a LangGraph with Groq LLM to automate interaction logging, editing recommendations.",
             link: "https://ai-first-crm-hcp-mauve.vercel.app"
         }
 
