@@ -18,10 +18,10 @@ const ProjectContent = () => {
             link: ""
         },
         {
-            img: "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-026-48103-3/MediaObjects/41598_2026_48103_Fig1_HTML.png",
+            img: "/my-website/src/assets/plant_diseases.jpg",
             title: "Plant Disease Classificaton",
-            desc: "Built an image-based plant disease detection model using machine learning techniques. Trained the model on labelled leaf images to classify disease categories and healthy plants.",
-            link: ""
+            desc: "Built an image-based plant disease detection model using machine learning techniques. Trained the model on labelled leaf images to classify disease categories and healthy plants also download the .csv type file and see the types.",
+            link: "https://plantdisease-qi5qkhglmnllj4encmfmcz.streamlit.app"
         },
         {
             img: "https://i0.wp.com/aurassure.com/wp-content/uploads/2024/05/Air-Quality-Monitoring-Page.webp?fit=2232%2C900&ssl=1",
