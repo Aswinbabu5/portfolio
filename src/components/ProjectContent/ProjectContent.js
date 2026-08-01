@@ -16,8 +16,8 @@ const ProjectContent = () => {
         {
             img: "https://backiee.com/static/wallpapers/1000x563/151670.jpg",
             title: "Development Collaboration Dashboard",
-            desc: "Designed and implemented CRUD (Create, Read, Update, Delete) operations for student records. Implemented input validation and exception handling for reliable data management.",
-            link: ""
+            desc: "A modern frontend project management dashboard developed using React and TypeScript, featuring project tracking, Kanban boards, analytics, notifications, responsive design, and Local Storage-based data persistence.",
+            link: "https://developer-dashboard-tan.vercel.app"
         },
         {
             img: plantdiseases,
