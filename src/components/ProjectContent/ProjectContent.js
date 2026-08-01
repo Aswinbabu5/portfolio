@@ -4,6 +4,7 @@ import Project from '../Project/project';
 import './ProjectContent.css'
 import plantdiseases from '../../assets/plant_diseases.jpg'
 import crmhcp from '../../assets/crm_hcp.png'
+import devdash from '../../assets/DevDash.png'
 
 const ProjectContent = () => {
     const projects = [
@@ -14,7 +15,7 @@ const ProjectContent = () => {
             link: ""
         },
         {
-            img: "https://backiee.com/static/wallpapers/1000x563/151670.jpg",
+            img: devdash,
             title: "Development Collaboration Dashboard",
             desc: "A modern frontend project management dashboard developed using React and TypeScript, featuring project tracking, Kanban boards, analytics, notifications, responsive design, and Local Storage-based data persistence.",
             link: "https://developer-dashboard-tan.vercel.app"
