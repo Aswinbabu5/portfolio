@@ -5,6 +5,7 @@ import './ProjectContent.css'
 import plantdiseases from '../../assets/plant_diseases.jpg'
 import crmhcp from '../../assets/crm_hcp.png'
 import devdash from '../../assets/DevDash.png'
+import airquality from '../../assets/smart-air-quality.png'
 
 const ProjectContent = () => {
     const projects = [
@@ -27,10 +28,10 @@ const ProjectContent = () => {
             link: "https://plantdisease-qi5qkhglmnllj4encmfmcz.streamlit.app"
         },
         {
-            img: "https://i0.wp.com/aurassure.com/wp-content/uploads/2024/05/Air-Quality-Monitoring-Page.webp?fit=2232%2C900&ssl=1",
+            img: airquality,
             title: "Smart Air Quality Monitoring for asthma patients",
             desc: "Developed an ML-powered air quality monitoring system that continuously monitors indoor and outdoor air quality conditions for asthma patients.",
-            link: ""
+            link: "https://github.com/Aswinbabu5/asthma_guard"
         },
         {
             img: crmhcp,
