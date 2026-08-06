@@ -6,14 +6,15 @@ import plantdiseases from '../../assets/plant_diseases.jpg'
 import crmhcp from '../../assets/crm_hcp.png'
 import devdash from '../../assets/DevDash.png'
 import airquality from '../../assets/smart-air-quality.png'
+import jublie from '../../assets/Jublie.png'
 
 const ProjectContent = () => {
     const projects = [
         {
-            img: "https://img.magnific.com/free-vector/student-studying-using-laptop-desk_1262-21426.jpg?semt=ais_hybrid&w=740&q=80",
-            title: "Student Management System",
-            desc: "Designed and implemented CRUD (Create, Read, Update, Delete) operations for student records. Implemented input validation and exception handling for reliable data management.",
-            link: ""
+            img: jublie,
+            title: "Jublie - The Judicial Assistant",
+            desc: "Developed an ML-powered automation pipeline in Python to assist users in retrieving and analyzing legal case records, demonstrating data processing and backend scripting capabilities.",
+            link: "https://jublie.streamlit.app"
         },
         {
             img: devdash,
