@@ -70,11 +70,11 @@
 }
 
 .skillcontent_slider5 > span > .MuiLinearProgress-bar {
-    background-color: tomato;
+    background-color: #818CF8;
 }
 
 .skillcontent_slider6 > span > .MuiLinearProgress-bar {
-    background-color: tomato;
+    background-color: #818CF8;
 }
 
 .skillcontent_slider7 > span > .MuiLinearProgress-bar {
@@ -83,4 +83,12 @@
 
 .skillcontent_slider8 > span > .MuiLinearProgress-bar {
     background-color: #10B981;
+}
+
+.skillcontent_slider9 > span > .MuiLinearProgress-bar {
+    background-color: #818CF8;
+}
+
+.skillcontent_slider10 > span > .MuiLinearProgress-bar {
+    background-color: #8B5CF6;
 }
