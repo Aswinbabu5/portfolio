@@ -1,6 +1,6 @@
 import React from 'react'
 import './TopContent.css'
-import resume from '../../assets//aswinbabu_resume.pdf'
+import resume from '../../assets/aswin_resume.pdf'
 
 const TopContent = () => {
     return (
