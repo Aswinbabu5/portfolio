@@ -7,6 +7,7 @@ import crmhcp from '../../assets/crm_hcp.png'
 import devdash from '../../assets/DevDash.png'
 import airquality from '../../assets/smart-air-quality.png'
 import jublie from '../../assets/Jublie.png'
+import incidenthub from '../../assets/incidenthub.png'
 
 const ProjectContent = () => {
     const projects = [
@@ -39,6 +40,12 @@ const ProjectContent = () => {
             title: "AI-First CRM HCP",
             desc: "Built a full-stack AI-powered CRM application that enables medical representatives to log, manage, and summarize HCP interactions using natural language. Integrated a LangGraph with Groq LLM to automate interaction logging, editing recommendations.",
             link: "https://ai-first-crm-hcp-mauve.vercel.app"
+        },
+        {
+            img: incidenthub,
+            title: "Incident_Hub",
+            desc: "IncidentHub is a full-stack MERN incident management platform designed to track, assign, investigate, and resolve operational incidents. It provides role-based access, SLA monitoring, activity tracking, file attachments, and analytics for managing the complete incident lifecycle.",
+            link: "https://incidend-hub.vercel.app"
         }
 
     ];
