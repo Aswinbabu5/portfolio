@@ -44,7 +44,7 @@ const ProjectContent = () => {
         {
             img: incidenthub,
             title: "Incident_Hub",
-            desc: "IncidentHub is a full-stack MERN incident management platform designed to track, assign, investigate, and resolve operational incidents. It provides role-based access, SLA monitoring, activity tracking, file attachments, and analytics for managing the complete incident lifecycle.",
+            desc: "IncidentHub is a full-stack MERN incident management platform with role-based access, incident tracking, assignment, and SLA monitoring.",
             link: "https://incidend-hub.vercel.app"
         }
 
