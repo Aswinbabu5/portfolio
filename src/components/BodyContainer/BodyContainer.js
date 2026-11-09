@@ -1,14 +1,14 @@
-import React from 'react'
-import {Element} from 'react-scroll'
-import './BodyContainer.css'
-import TopContent from '../TopContent/TopContent'
+import React from 'react';
+import { Element } from 'react-scroll';
+import './BodyContainer.css';
+import TopContent from '../TopContent/TopContent';
 
 const BodyContainer = () => {
   return (
-    <Element name='About' className='Body-container'>
+    <Element name="About" className="body-container">
         <TopContent />
     </Element>
-  )
-}
+  );
+};
 
-export default BodyContainer
+export default BodyContainer;

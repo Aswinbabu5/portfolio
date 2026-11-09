@@ -1,36 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,600;1,600&display=swap');
+.projects-section {
+    padding: 100px 0;
+    position: relative;
+    z-index: 10;
+}
 
-.projectcontent {
+.projects-filter-bar {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 200px 0;
-    color: white;
-}
-
-.projectcontent > h2 {
-    font-family: "Roboto", sans-serif;
-    text-transform: capitalize;
-    padding-bottom: 10px;
-    font-size: 30px;
-    color: rgb(112, 112, 243);
-    text-decoration: underline;
-    text-underline-position: under;
-    text-decoration-color: white;
-    text-decoration-style: wavy;
-}
-
-.projectcontent > p {
-    padding-bottom: 15px; 
-    font-family: "Roboto", sans-serif;  
-}
-
-.projectcontent_project {
-    display: flex;
-    width: 80vw;
-    margin-top: 50px;
-    margin-left: 50px;
     flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    margin-bottom: 48px;
+}
+
+.filter-pill {
+    padding: 10px 22px;
+    border-radius: 999px;
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: var(--color-text-muted);
+    background: rgba(15, 23, 42, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(8px);
+    transition: all 0.25s ease;
+}
+
+.filter-pill:hover {
+    color: #fff;
+    border-color: rgba(99, 102, 241, 0.35);
+    background: rgba(26, 36, 62, 0.7);
+}
+
+.filter-pill.active {
+    color: #fff;
+    background: linear-gradient(135deg, rgba(99, 102, 241, 0.35), rgba(168, 85, 247, 0.35));
+    border-color: rgba(99, 102, 241, 0.6);
+    box-shadow: 0 0 16px rgba(99, 102, 241, 0.3);
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 28px;
+}
+
+@media (min-width: 640px) {
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .projects-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }

@@ -1,0 +1,54 @@
+.portfolio-app-root {
+  min-height: 100vh;
+  position: relative;
+  background-color: var(--color-bg-base);
+  color: var(--color-text-main);
+  overflow-x: hidden;
+}
+
+.portfolio-main-content {
+  position: relative;
+  z-index: 10;
+}
+
+/* Floating Scroll to Top Button */
+.floating-scroll-top-btn {
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 24px rgba(99, 102, 241, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  z-index: 990;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  animation: floatUpFade 0.3s ease;
+}
+
+@keyframes floatUpFade {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.floating-scroll-top-btn:hover {
+  transform: translateY(-4px) scale(1.08);
+  box-shadow: 0 12px 30px rgba(99, 102, 241, 0.65);
+}
+
+.floating-scroll-top-btn:active {
+  transform: translateY(0) scale(0.96);
+}
+
